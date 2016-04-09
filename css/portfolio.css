@@ -9,8 +9,10 @@ a {
 }
 
 body {
-	font-family: "Roboto";
+	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
+	color: #7CA4FF;
+	background-color: #ECECEC;
 }
 
 ul {
@@ -21,11 +23,11 @@ li {
 	display: inline-block;
 	margin: 0 30px;
 	vertical-align: middle;
-	font-size: 1.1em;
+	font-size: 1em;
 }
 
 #home {
-	margin-left: 62%;
+	margin-left: 50%;
 }
 
 nav {
@@ -36,4 +38,34 @@ nav {
 
 img {
 	margin-left: 40px;
+}
+
+#wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#welcome {
+	font-size: 6em;
+	text-align: center;
+}
+
+#box1, #box2, #box3, #box4 {
+	width: 400px;
+	height: 200px;
+	float: left;
+	background-color: #1E8BC4;
+	/*border-radius: 2px;*/	
+}
+
+#box2 {
+	background-color: #F15A49;
+}
+
+#box3 {
+	background-color: #35BC7A;
+}
+
+#box4 {
+	background-color: #F39CC3;
 }
