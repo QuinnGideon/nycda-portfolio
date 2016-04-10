@@ -48,6 +48,7 @@ img {
 #welcome {
 	font-size: 6em;
 	text-align: center;
+	float: right;
 }
 
 #box1, #box2, #box3, #box4 {
@@ -68,4 +69,33 @@ img {
 
 #box4 {
 	background-color: #F39CC3;
+}
+
+#box5 {
+	width: 800px;
+	height: 200px;
+	float: left;
+	background-color: #B39DB4;
+
+}
+
+.text {
+	color:white;
+	font-size: 3em;
+	margin-top: 50px;
+	text-align: center;
+
+}
+
+.text1 {
+	color:white;
+	font-size: 1em;
+	margin: 80px;
+	text-align: center;
+}
+
+hr {
+	width: 410px;
+	margin: -13px auto;
+	height: 3px;
 }
