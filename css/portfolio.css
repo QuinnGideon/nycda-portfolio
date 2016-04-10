@@ -48,17 +48,24 @@ img {
 #welcome {
 	font-size: 1em;
 	/*text-align: center;*/
-	float: left;
+	float: right;
 	width: 28%;
 	padding-left: 20px;
 	color: #272822;
-	margin-top: -320px;
+	/*margin-top: -230px;*/
 	line-height: 1.8em;
+	clear: right;
+	display: inline-block;
+	vertical-align: top;
 
 }
 
+#welcome a {
+	color: #272822;
+}
+
 #box1, #box2, #box3, #box4 {
-	width: 400px;
+	width: 50%;
 	height: 200px;
 	float: left;
 	background-color: #1E8BC4;
@@ -78,7 +85,7 @@ img {
 }
 
 #box5 {
-	width: 800px;
+	width: 100%;
 	height: 200px;
 	float: left;
 	background-color: #B39DB4;
@@ -101,7 +108,12 @@ img {
 }
 
 hr {
-	width: 410px;
+	width: 51%;
 	margin: -13px auto;
 	height: 3px;
 }
+
+#boxes {
+	width: 70%;
+}
+
