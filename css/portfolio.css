@@ -46,9 +46,15 @@ img {
 }
 
 #welcome {
-	font-size: 6em;
-	text-align: center;
-	float: right;
+	font-size: 1em;
+	/*text-align: center;*/
+	float: left;
+	width: 28%;
+	padding-left: 20px;
+	color: #272822;
+	margin-top: -320px;
+	line-height: 1.8em;
+
 }
 
 #box1, #box2, #box3, #box4 {
