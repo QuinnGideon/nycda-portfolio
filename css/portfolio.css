@@ -8,6 +8,10 @@ a, footer {
 	color: white;
 }
 
+nav {
+	height: 105px;
+}
+
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
@@ -137,6 +141,7 @@ hr {
 footer p {
 	display: block;
 	text-align: center;
+	padding-top: 12px;
 }
 
 #coming-soon {
